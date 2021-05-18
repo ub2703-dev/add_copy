@@ -16,10 +16,10 @@ pipeline{
                 sh 'mvn package'
             }
         }
-        stage ('deploy'){
-            steps{
-                echo 'mvn deploy'
-            }
+//         stage ('deploy'){
+//             steps{
+//                 echo 'mvn deploy'
+//             }
         }
     }
 }
